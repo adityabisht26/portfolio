@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aditya Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/adc01ebcdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Assest/Brown And White Minimalist Initial Logo.png" alt="image is not available" class="logo">
+
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Java Full Stack developer</p>
+                <h1>Hi, I am <span>Aditya</span> Bisht, <br> seeking entry level software <br> developer position.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Assest/WhatsApp Image 2024-12-31 at 14.18.49.jpeg" alt="image not available">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi, I am Aditya, I reside in noida. I hold a bachelor's degree in Computer Science from DIT University, Dehradun, where I honed my skills in Java and Data Structures and Algorithms (DSA). My hands-on experience with several foundational projects has solidified my understanding of software development principles and practices. My technical skills, enthusiasm for continuous learning, and problem-solving mindset make me a strong fit for this role. I am eager to contribute to your team and further expand my skills.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab skillss" id="skills">
+                        <ul> 
+                            <li><span>Technical Skills</span> <br> Java, DSA (Data Structures and Algorithm), OOPS, SQL, HTML and CSS, javascript</li> 
+                            <li><span>Techniques</span> <br> SDLC (SoftwareDevelopment Life Cycle),Agile Methodology <br></li>
+                            <li><span>Soft Skills</span> <br> AnalyticalThinker,Attentiontodetail,GoodEthics,CommunicationSkills,Collaborative, Active Listener, Flexible to work environment, Creative.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>edulearn </span> <br> • Purpose: An e-learning platform designed to enhance online education.
+                                Technologies Used: HTML, CSS <br>
+                                
+                                •Contribution: <br>
+                                HTML: Developed structured, semantic web pages. <br>
+                                CSS: Designed responsive and visually appealing user interfaces. <br>
+                                
+                                •Key Features: <br>
+                                User-friendly navigation <br>
+                                Interactive course modules <br>
+                                Mobile-friendly design <br>
+                                
+                                •Outcome: Improved user engagement and learning experience through an intuitive and accessible platform. <br>
+                            </li>
+
+                            <li><span>Cafe-Bill-Generator</span> <br> • Developed a billing system for a cafe: using Java, featuring menu display, order processing, and bill generation. <br>
+                                • Implemented classes: for menu items and customer details, ensuring modular and maintainable code. <br>
+                                • Utilized data structures: like lists to manage menu items, orders, and customers efficiently. <br>
+                                • Enhanced user interaction: with a command-line interface for seamless order placement and billing. <br>
+                            </li>
+
+                            <li><span>Car-Rental-System</span> <br> • Java-based:Utilized Collections Framework (Array List), methods, constructors, andOOP principles. <br>
+                                • Classes: Managed car details, customer details, and rental transactions. <br>
+                                • Core System: Maintained lists and included methods for adding, finding, renting, and returning cars and customers. <br>
+                                • Main Class: Set up the system and initiate user interaction via a menu. <br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span> <br> DIT University, Dehradun</li>
+                            <li><span>12th</span> <br> Aryaman Vikram birla Institute of Learning, Haldwani</li>
+                            <li><span>10th</span><br> Nirmala Convent School, Haldwani</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- -------------services------------ -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Create responsive and dynamic websites using your front-end (HTML, CSS, JavaScript) and back-end (Java, SQL) skills.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-users"></i>
+                    <h2>API Development and Integration</h2>
+                    <p>Create and integrate APIs to enhance the functionality and connectivity of web applications.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Code Optimization and Refactoring</h2>
+                    <p>Improve the performance and maintainability of existing codebases.</p>
+                    <a href="#">learn more</a>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+
+     <!-- ------------------Certificate-------------------->
+      <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="/Assest/IMG20240224220731.jpg">
+                <div class="layer">
+                    <h3>Hiltron Calc</h3>
+                    <p>Core Java</p>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="/Assest/Screenshot (617).png">
+                    <div class="layer">
+                        <h3>Geeks for Geeks</h3>
+                        <p>DSA to Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------contact----------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>adityabisht0026@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9761001592</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/adityabisht026/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/adityabisht26?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="/Assest/AdityaBisht_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aditya 2025. All Rights Reserved.</p>
+    </div>
+ </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAijDl2r5f-Fdml8EmC_4WNwoZhE0Xtq43uXQrszTyp6VEpkM1cwSvgJEdQIEsIWaYYw/exec'
+
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML= "" 
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
